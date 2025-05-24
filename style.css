@@ -27,6 +27,28 @@ body {
   color: var(--text-color);
   background-color: var(--background);
 }
+/* About Section */
+.about {
+  background-color: var(--background);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-text h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
 /* Education Section */
 .education {
   background-color: var(--light-bg);
