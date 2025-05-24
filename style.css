@@ -171,6 +171,22 @@ img {
 section {
   padding: 100px 0;
 }
+.download-btn {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  margin-left: 10px;
+}
+
+.download-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
 
 /* Section wrapper */
 .certifications {
