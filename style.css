@@ -89,6 +89,33 @@ p {
   transition: var(--transition);
   font-size: 1rem;
 }
+/* Key Expertise Section */
+.key-expertise {
+  background-color: var(--light-bg);
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.expertise-item {
+  background-color: var(--background);
+  border-left: 4px solid var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  font-weight: 500;
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.expertise-item:hover {
+  transform: translateY(-5px);
+  background-color: #fff0fa;
+}
 
 .primary-btn {
   background-color: var(--primary-color);
